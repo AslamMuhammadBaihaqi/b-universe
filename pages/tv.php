@@ -8,6 +8,9 @@
             <path d="M132.202 64V22H141.922V56.08H162.982V64H132.202ZM171.413 64V22H181.133V64H171.413ZM206.525 64L188.405 22H198.905L214.745 59.2H208.565L224.645 22H234.305L216.125 64H206.525ZM249.751 38.92H269.971V46.48H249.751V38.92ZM250.471 56.2H273.331V64H240.811V22H272.551V29.8H250.471V56.2Z" fill="#062265" />
         </svg>
     </div>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+    </div>
 </div>
 
 <div class="jadwal-container">
