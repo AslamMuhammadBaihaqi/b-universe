@@ -1,0 +1,543 @@
+/* Section live-stream */
+.container-tv {
+	padding: 9rem 5rem 7.5rem 5rem;
+}
+
+.logo-tv {
+	margin-bottom: 5rem;
+}
+
+.share {
+	margin-top: 5rem;
+}
+
+.share .wrapper-icon {
+	padding-top: 1rem;
+}
+
+/* Section Jadwal */
+.jadwal-container {
+	padding: 0rem 5rem 7.5rem 5rem;
+}
+
+.list-jadwal {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 0.5rem;
+	margin-bottom: 3.65rem;
+	overflow: auto;
+	width: 100%;
+}
+
+.list-jadwal::-webkit-scrollbar {
+	width: 102px;
+}
+
+.container::-webkit-scrollbar-thumb {
+	background-color: #7a7a7a;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+}
+
+.list-jadwal button {
+	background-color: white;
+	border: none;
+	gap: 0.625rem;
+	color: #b3b3b3;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	border-radius: 2rem;
+	border: 1px solid var(--neutral-300, #b3b3b3);
+}
+
+.list-jadwal button:hover {
+	border-radius: 2rem;
+	color: white;
+	border: 1px solid var(--neutral-300, #b3b3b3);
+	background: var(--primary-500, #062265);
+}
+
+.current-day {
+	color: white!important;
+	background-color: var(--primary-500, #062265)!important;
+}
+
+.list-acara {
+	display: inline-block;
+	border: 2px;
+	width: 100%;
+	height: 1320px;
+	overflow-y: auto;
+}
+
+.list-acara {
+    display: none;
+}
+
+.list-acara.active {
+    display: block;
+}
+
+.list-acara::-webkit-scrollbar {
+	width: 2%;
+}
+
+.list1 {
+	display: flex;
+	padding: 1.5rem 0;
+	align-items: center;
+	gap: 0.6875rem;
+	align-self: center;
+	width: 100%;
+}
+
+.jam-icon {
+	width: 3rem;
+}
+
+.text-jadwal {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1.5rem;
+	flex: 1 0 0;
+}
+
+.text-jadwal .p {
+	align-self: stretch;
+}
+
+.text-jadwal-wrapper {
+	width: 100%;
+	padding: 0.75rem 1rem;
+}
+
+.play-icon {
+	display: none;
+}
+
+.active-day .text-jadwal .active-hours {
+	background-color: #062265;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+.active-day .text-jadwal .active-hours .jam-icon {
+	display: none;
+}
+
+.active-day .text-jadwal .active-hours .play-icon {
+	display: block;
+}
+
+.active-day .text-jadwal .active-hours .hari-jam-wrapper p{
+	color: white;
+}
+
+/* Program Unggulan */
+.program-unggulan {
+	width: 100%;
+}
+.program {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 3.5rem;
+	align-self: stretch;
+}
+
+#carouselExampleFade {
+	display: none;
+}
+
+.program1 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1rem;
+	align-self: stretch;
+}
+
+.program1 img {
+	align-self: stretch;
+	border-radius: 1rem;
+	max-width: 1440px;
+	width: 100%;
+	max-height: 330px;
+	height: auto;
+	object-fit: contain;
+}
+
+.deskripsi-program {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.5rem;
+	align-self: stretch;
+}
+
+.program1 .p {
+	align-self: stretch;
+}
+
+/* Section Vidio Terkini */
+.container-video-terkini {
+	gap: 24px;
+}
+
+.vidio-container {
+	padding: 0rem 5rem 7.5rem 5rem;
+	align-items: flex-start;
+	gap: 2.5rem;
+}
+
+.vidio-container .label-v {
+	display: flex;
+	margin-bottom: 5rem;
+	gap: 1rem;
+	align-self: stretch;
+}
+
+.list-vidio {
+	display: flex;
+	align-items: flex-start;
+	align-content: space-around;
+	gap: 2rem;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.vidio1 {
+	display: flex;
+	width: 25.0625rem;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.625rem;
+}
+/* Pagination */
+
+.pagination {
+	text-align: center;
+	justify-content: flex-end;
+	align-items: flex-start;
+	gap: 0.5rem;
+	align-self: stretch;
+	padding-bottom: 10rem;
+	padding-top: 5rem;
+}
+
+.pagination li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.pagination li p {
+	color: #fff;
+	text-decoration: none;
+	line-height: 48px;
+}
+
+.current-page {
+	background: #ccc;
+	width: 48px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.current-page:hover {
+	background-color: #062265;
+}
+/* end pagination */
+
+@media screen and (max-width: 992px) {
+	/* Section LiveStream */
+
+	.logo-tv {
+		margin-bottom: 0;
+	}
+
+	.container-tv {
+		padding: 5rem 3.75rem 5rem;
+	}
+
+	.logo-tv svg {
+		width: 153px;
+		height: 84px;
+	}
+
+	.share p {
+		font-size: 0.875rem;
+	}
+
+	.wrapper-icon svg {
+		width: 32px;
+		height: 32px;
+	}
+
+	.jadwal-container {
+		padding: 0rem 3.75rem 5rem;
+		gap: 2.5rem;
+	}
+
+	.jadwal-container .row {
+		margin: 0 !important;
+	}
+
+	.jadwal-container .col-xl-6 {
+		padding: 0 !important;
+	}
+
+	.jadwal-container .col-lg-6 {
+		padding: 0 !important;
+	}
+
+	.jadwal-container .col-md-6 {
+		padding: 0 !important;
+	}
+
+	.vidio-container {
+		padding: 0rem 3.75rem 5rem;
+	}
+
+	.program {
+		display: none;
+	}
+
+	.list-acara {
+		height: 36.5rem;
+		margin-bottom: 72px;
+	}
+
+	#carouselExampleFade {
+		display: block;
+		width: 100%;
+	}
+
+	.carousel-inner {
+		max-height: 100%;
+	}
+
+	.carousel-item img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.carousel-item .deskripsi-program {
+		height: 130px;
+		margin-top: 1rem;
+	}
+
+	.list-vidio {
+		display: flex;
+		align-items: flex-start;
+		align-content: flex-start;
+		justify-content: space-between;
+		gap: 2.5rem 3.75rem;
+		flex-wrap: wrap;
+	}
+
+	.list-acara .text-jadwal p {
+		font-size: 1.25rem;
+	}
+
+	.vidio1 {
+		display: flex;
+		width: 20.4375rem;
+		align-items: flex-start;
+		gap: 0.625rem;
+		flex-shrink: 0;
+	}
+
+	.vidio1 img {
+		width: 327px;
+		height: 323px;
+	}
+
+	.vidio1 p {
+		font-size: 0.875rem;
+	}
+
+	/* Pagination */
+
+	.pagination li p {
+		line-height: 32px;
+		font-size: 1.25rem;
+	}
+
+	.current-page {
+		width: 32px;
+	}
+	/* End of pagination */
+}
+/* End of tablet */
+
+/* Responsive Hp */
+@media screen and (max-width: 450px) {
+	/* Section LiveStream */
+	.logo-tv {
+		margin-bottom: 1rem;
+	}
+
+	.container-tv {
+		padding: 5rem 1.25rem 1.25rem;
+	}
+
+	.logo-tv svg {
+		width: 73px;
+		height: 22px;
+	}
+
+	.share p {
+		font-size: 0.625rem;
+	}
+
+	.wrapper-icon svg {
+		width: 16px;
+		height: 16px;
+	}
+
+	.jadwal-container {
+		padding: 2.5rem 1.25rem;
+		gap: 2rem;
+		width: 100%;
+	}
+
+	.jadwal-container .program-unggulan {
+		margin-top: 2.5rem;
+	}
+	
+	.list-jadwal button {
+		padding: 5px 10px;
+	}
+
+	.list-jadwal button a {
+		font-size: 16px;
+	}
+
+	.jadwal {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.list1 {
+		width: 100%;
+		padding: 0px
+	}
+
+	.list1 svg {
+		width: 32px;
+	}
+
+	.list-acara .text-jadwal p {
+		font-size: 0.875rem;
+	}
+
+	.list-acara {
+		width: 100%;
+		height: 33.3rem;
+		margin-bottom: 0px;
+	}
+
+	.text-jadwal {
+		gap: 1rem;
+	}
+
+	.jam-icon, .play-icon {
+		width: 32px;
+	}
+
+	.hari-jam-wrapper {
+		padding-left: 8px!important;
+	}
+	.list-jadwal {
+		margin-bottom: 0;
+	}
+
+	.mb-3, .my-3 {
+		margin-bottom: 0!important;
+	}
+
+	.carousel-item .deskripsi-program {
+		height: 200px;
+	}
+
+	.container-video-terkini {
+		justify-content: unset !important;
+	}
+
+	.video-terkini-wrap {
+		width: 100%;
+		margin-right: 0; /* Remove right margin for full width */
+	}
+
+	iframe {
+		width: 100%;
+		height: 190px;
+	}
+
+	.program .program1 h1 {
+		font-size: 1rem;
+	}
+
+	.program .program1 p {
+		font-size: 0.75rem;
+	}
+
+	.vidio-container {
+		padding: 0 1.25rem 2.5rem;
+	}
+
+	.list-vidio {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 2.1875rem;
+		width: 20rem;
+	}
+
+	.vidio1 {
+		display: flex;
+		width: 20.4375rem;
+		align-items: flex-start;
+		gap: 0.625rem;
+		flex-shrink: 0;
+	}
+
+	.vidio1 img {
+		width: 327px;
+		height: 323px;
+	}
+
+	.vidio1 p {
+		font-size: 0.875rem;
+	}
+
+	/* Pagination */
+
+	.pagination {
+		padding-top: 2rem;
+		padding-bottom: 2.5rem;
+	}
+	.pagination li p {
+		line-height: 24px;
+		font-size: 1rem;
+	}
+
+	.current-page {
+		width: 24px;
+	}
+}

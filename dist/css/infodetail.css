@@ -1,0 +1,160 @@
+.infodetail-container {
+	padding: 152px 80px 100px;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+}
+
+.judul1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	padding-top: 40px;
+	width: 100%;
+}
+
+.info-location-event {
+	width: 100%;
+}
+
+.info-location-event .d-flex {
+	gap: 16px;
+}
+
+.deskripsi {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	padding: 0 80px 80px;
+}
+
+.deskripsi .detail-deskripsi {
+	gap: 16px;
+}
+
+.deskripsi .detail-deskripsi p {
+	margin: 0px !important;
+}
+
+.deskripsi .detail-deskripsi {
+	list-style: initial;
+}
+
+.deskripsi .detail-deskripsi ol {
+	list-style-type: decimal;
+}
+
+.deskripsi .detail-deskripsi ul {
+	list-style-type: disc;
+}
+
+.deskripsi .detail-deskripsi li {
+	list-style: initial;
+	padding-left: 4px !important;
+	padding-top: 8px;
+}
+
+.deskripsi .detail-deskripsi b {
+	font-weight: 600;
+	font-size: 18px;
+	letter-spacing: 0.8px;
+}
+
+@media only screen and (max-width: 992px) {
+	.infodetail-container {
+		padding: 100px 60px 80px;
+	}
+
+	.judul1 h4 {
+		font-size: 24px;
+	}
+
+	.info-location-event .d-flex {
+		gap: 8px;
+	}
+
+	.info-location-event .d-flex h5 {
+		font-size: 16px;
+	}
+
+	.deskripsi {
+		padding: 0 60px 60px;
+	}
+
+	.deskripsi h1 {
+		font-size: 32px;
+	}
+
+	.info-location-event .d-flex svg {
+		width: 36px;
+		height: 36px;
+	}
+
+	/* .deskripsi .detail-deskripsi p,
+	span,
+	ul,
+	li,
+	ol,
+	div {
+		font-size: 16px;
+		letter-spacing: 0.8px;
+	} */
+}
+
+@media only screen and (max-width: 460px) {
+	.infodetail-container {
+		padding: 100px 20px 40px;
+	}
+
+	.judul1 {
+		padding-top: 0px;
+	}
+
+	.judul1 h4 {
+		font-size: 16px;
+	}
+
+	.info-location-event .d-flex h5 {
+		font-size: 14px;
+	}
+
+	.deskripsi {
+		padding: 0px 20px 40px;
+	}
+
+	.info-location-event {
+		flex-direction: column;
+		gap: 12px;
+		justify-content: flex-start !important;
+	}
+
+	.info-location-event .d-flex {
+		gap: 8px;
+	}
+
+	.info-location-event .d-flex:nth-child(1) svg {
+		width: 20px;
+		height: 20px;
+	}
+
+	.info-location-event .d-flex:nth-child(2) svg {
+		width: 24px;
+		height: 24px;
+	}
+
+	/* .deskripsi .detail-deskripsi p,
+	font,
+	span,
+	ul,
+	li,
+	ol,
+	div {
+		font-size: 14px;
+		letter-spacing: 0.7px;
+	} */
+
+	.deskripsi h1 {
+		font-size: 22px;
+	}
+}

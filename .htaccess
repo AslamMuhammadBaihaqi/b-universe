@@ -1,0 +1,38 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /b_universe/
+
+    # Aturan untuk /home
+    RewriteRule ^home$ index.php?page=home [L]
+
+    #Tentang Kami
+    RewriteRule ^tentang-kami$ index.php?page=tentang-kami [L]
+    #Tentang Kami End
+
+    #Berita
+    RewriteRule ^berita$ index.php?page=berita [L]
+    #Berita End
+
+    #Karir
+    RewriteRule ^karir$ index.php?page=karir [L]
+    RewriteRule ^karir/detail-job$ index.php?page=detail-job [L]
+    RewriteRule ^karir/detail-job/form-job/([0-9]+)$ index.php?page=form-job&id=$1 [L]
+    #RewriteRule ^karir/detail-job/form-job/([0-9]+)/([a-zA-Z0-9_-]+)$ index.php?page=form-job&id=$1&status=success [L]
+    #Karir End
+
+    #Kontak
+    RewriteRule ^kontak$ index.php?page=kontak [L]
+    RewriteRule ^kontak/([a-zA-Z0-9_-]+)$ index.php?page=kontak&status=$1 [L]
+    #RewriteRule ^kontak/success$ index.php?page=kontak&status=success [R=301,L]
+    #Kontak End
+
+    # Event
+    RewriteRule ^event$ index.php?page=event [L]
+    RewriteRule ^event/([0-9]+)$ index.php?page=event&p=$1 [L]
+    RewriteRule ^event/detail-event/([0-9]+)$ index.php?page=detail-event&id=$1 [L]
+    # Event End
+
+    #TV
+    RewriteRule ^tv$ index.php?page=tv [L]
+    #TV End
+</IfModule>

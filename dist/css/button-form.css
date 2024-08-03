@@ -1,0 +1,166 @@
+/* Primary 1*/
+.primary-default1 {
+	display: inline-flex;
+	padding: 16px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 32px;
+	border: none;
+	cursor: pointer;
+	background: #062265;
+	text-decoration: none;
+
+	color: #fff;
+	text-align: center;
+
+	/* Semi Bold/Heading 6 */
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%; /* 28px */
+	letter-spacing: 1px;
+}
+
+.primary-default1:hover {
+	background: #5a84d0;
+	color: white;
+}
+/* Primary 1 End */
+
+/* Primary 2 */
+.primary-default2 {
+	display: inline-flex;
+	padding: 16px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 32px;
+	border: none;
+	cursor: pointer;
+	background: #fb0003;
+	text-decoration: none;
+
+	color: #fff;
+	text-align: center;
+
+	/* Semi Bold/Heading 6 */
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%; /* 28px */
+	letter-spacing: 1px;
+}
+
+.primary-default2:hover {
+	background: #fd7e65;
+}
+/* Primary 2 End */
+
+/* Secondary 1 */
+.secondary-default1 {
+	display: inline-flex;
+	padding: 16px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 32px;
+	border: 1px solid #062265;
+	cursor: pointer;
+	background: #fff;
+	text-decoration: none;
+
+	color: #062265;
+	text-align: center;
+
+	/* Semi Bold/Body Small */
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%; /* 16.8px */
+	letter-spacing: 0.6px;
+}
+
+.secondary-default1:hover {
+	border: 1px solid #5a84d0;
+	color: #5a84d0;
+}
+/* Secondary 1 End */
+
+/* Secondary 2 */
+.secondary-default2 {
+	display: inline-flex;
+	padding: 16px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 32px;
+	border: 1px solid #fb0003;
+	cursor: pointer;
+	background: #fff;
+	text-decoration: none;
+
+	color: #fb0003;
+	text-align: center;
+
+	/* Semi Bold/Body Small */
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%; /* 16.8px */
+	letter-spacing: 0.6px;
+}
+
+.secondary-default2:hover {
+	border: 1px solid var(--secondary-300, #fd7e65);
+	color: var(--secondary-300, #fd7e65);
+}
+/* Secondary 2 End */
+
+/* Form Without Icon */
+.form-default {
+	display: flex;
+	/* width: 334px; */
+	padding: 16px 24px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 16px;
+	border: 1px solid var(--neutral-500, #666);
+	background: var(--neutral-100, #fff);
+}
+
+.form-default::placeholder {
+	flex: 1 0 0;
+	color: var(--neutral-400, #999);
+
+	/* Regular/Body Large */
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%;
+	letter-spacing: 0.8px;
+}
+
+.form-default-disabled {
+	display: flex;
+	padding: 16px 24px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	align-self: stretch;
+	border-radius: 16px;
+	border: 1px solid var(--neutral-300, #b3b3b3);
+	background: var(--neutral-300, #b3b3b3);
+}
+
+.form-default:valid {
+	border: 0.5px solid var(--neutral-800, #1a1a1a);
+}
+
+/* Form Without Icon End */

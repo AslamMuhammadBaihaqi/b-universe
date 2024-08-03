@@ -1,0 +1,314 @@
+.detail-container {
+	padding: 5rem 5rem 7.5rem 5rem;
+}
+
+/* Breadcrumb */
+.breadcrumbs {
+	margin-bottom: 1.5rem;
+}
+
+.breadcrumbs ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.breadcrumbs ul li a {
+	text-decoration: none;
+}
+
+.breadcrumbs ul li a:nth-child(1) {
+	color: #2f55a2;
+}
+
+.breadcrumbs ul li a:nth-child(2) {
+	color: #2f55a2;
+}
+
+.breadcrumbs ul li a:hover {
+	color: #062265;
+}
+
+.breadcrumbs ul svg {
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+/* Breadcrumb End */
+
+/* Lowongan */
+.lowongan .contentBx {
+	display: flex;
+	width: 100%;
+	padding: 24px;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 1rem;
+	background: var(--primary-500, #062265);
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
+}
+
+.lowongan ul li {
+	margin-bottom: 2.5rem;
+}
+
+.judul-lowongan {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-self: stretch;
+	cursor: pointer;
+}
+
+.judul-lowongan svg {
+	width: 3rem;
+	height: 3rem;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	color: white;
+}
+
+.line {
+	border: 1px solid white;
+	width: 100%;
+	margin: 1.5rem 0;
+}
+
+.keterangan-lowongan {
+	width: 100%;
+}
+
+.lowongan-icon {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.lowongan-icon svg {
+	color: white;
+}
+
+.detail-content {
+	width: 100%;
+}
+
+.detail-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 3rem;
+	align-self: stretch;
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+.contentBx.active-accordion .detail-content {
+	margin-top: 1.5rem;
+	height: fit-content;
+}
+
+.detail-wrapper {
+	display: flex;
+	align-items: flex-start;
+	gap: 40px;
+	align-self: stretch;
+	justify-content: space-between;
+}
+
+.sub-content {
+	display: flex;
+	padding: 24px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+	flex: 1 0 0;
+	border-radius: 32px;
+	border: 1px solid #fff;
+}
+
+.sub-content ul {
+	padding-left: 24px;
+}
+.sub-content ul li {
+	padding: 0;
+	margin: 0;
+	list-style-type: disc;
+}
+
+.detail-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 32px;
+	align-self: stretch;
+}
+/* Lowongan End */
+
+/* Media screen 890px */
+@media screen and (max-width: 890px) {
+	.detail-container {
+		padding: 0 3.75rem 5rem 3.75rem;
+	}
+
+	.judul-lowongan label {
+		font-size: 16px;
+		font-weight: 600;
+		letter-spacing: 0.8px;
+	}
+
+	.judul-lowongan svg {
+		width: 2rem;
+		height: 2rem;
+	}
+
+	.line {
+		margin: 1rem 0;
+	}
+
+	.lowongan-icon p {
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.7px;
+	}
+
+	.contentBx.active-accordion .detail-content {
+		margin-top: 1rem;
+		height: fit-content;
+	}
+
+	.sub-content {
+		padding: 24px 16px;
+		gap: 0.5rem;
+		border-radius: 24px;
+		-webkit-border-radius: 24px;
+		-moz-border-radius: 24px;
+		-ms-border-radius: 24px;
+		-o-border-radius: 24px;
+	}
+
+	.sub-content ul {
+		padding-left: 18px;
+	}
+
+	.detail-content {
+		gap: 2rem;
+	}
+
+	.detail-content .detail-wrapper h1 {
+		font-size: 16px;
+		font-weight: 700;
+		letter-spacing: 0.8px;
+	}
+
+	.detail-content .detail-wrapper ul {
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.7px;
+	}
+
+	.detail-footer {
+		gap: 1rem;
+	}
+
+	.detail-footer h5 {
+		font-size: 20px;
+		font-weight: 700;
+		letter-spacing: 1px;
+	}
+
+	.detail-footer p {
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.7px;
+	}
+}
+/* Media screen 890px End */
+
+/* Media screen 670px */
+@media screen and (max-width: 670px) {
+	.detail-container {
+		padding: 1.25rem 1.25rem 2.5rem 1.25rem;
+	}
+
+	.breadcrumbs {
+		margin-bottom: 1rem;
+	}
+	.breadcrumbs ul li a {
+		font-size: 12px;
+		font-weight: 400;
+		letter-spacing: 0.6px;
+	}
+
+	.breadcrumbs ul svg {
+		width: 14px;
+		height: 14px;
+		vertical-align: middle;
+	}
+
+	.detail-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 16px;
+		align-self: stretch;
+	}
+
+	.detail-footer h5 {
+		font-size: 16px;
+		font-weight: 700;
+		letter-spacing: 0.8px;
+	}
+
+	.detail-footer p {
+		font-size: 12px;
+		font-weight: 400;
+		letter-spacing: 0.6px;
+	}
+}
+
+@media screen and (max-width: 572px) {
+	.keterangan-lowongan {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.keterangan-lowongan .lowongan-icon {
+		gap: 4px;
+	}
+
+	.keterangan-lowongan .lowongan-icon svg {
+		height: 16px;
+		width: 16px;
+	}
+
+	.keterangan-lowongan .lowongan-icon p {
+		font-size: 12px;
+	}
+
+	.keterangan-lowongan .lowongan-icon:nth-child(3) {
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 474px) {
+	.keterangan-lowongan .lowongan-icon:nth-child(3) {
+		margin-right: auto;
+		padding-top: 16px;
+	}
+ }
+@media screen and (max-width: 338px) {
+	.keterangan-lowongan .lowongan-icon p {
+		font-size: 10px;
+	}
+}

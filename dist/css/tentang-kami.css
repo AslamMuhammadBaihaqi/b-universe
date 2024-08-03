@@ -1,0 +1,735 @@
+/* Section Hero */
+.container-about {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	padding-top: 7.5rem;
+	width: 100%;
+}
+
+.container-about img {
+	width: 100%;
+}
+/* End Section Hero */
+
+/* Section History */
+.label-tentangkami {
+	color: white;
+	position: absolute;
+}
+
+.container-history {
+	padding: 10rem 5rem;
+	width: 100%;
+}
+
+.b-history {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.label-b {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	align-self: stretch;
+}
+
+.label-b p {
+	align-self: stretch;
+}
+
+.scroll-year .history {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 3rem;
+	flex-shrink: 0;
+	width: 100%;
+	height: 400px;
+	overflow: auto;
+	direction: rtl;
+	padding-left: 4rem;
+}
+
+.scroll-year ::-webkit-scrollbar {
+	width: 16px;
+}
+.scroll-year ::-webkit-scrollbar-track {
+	background-color: #b3b3b3;
+	border-radius: 10px;
+}
+
+.scroll-year ::-webkit-scrollbar-thumb {
+	background-color: #ef3f17;
+	border-radius: 10px;
+}
+
+.scroll-year .history .history1 {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-self: stretch;
+}
+
+.history1 h3,
+.history1 p {
+	color: #b3b3b3;
+}
+.history1 .bold {
+	color: black;
+}
+
+/* End Section History */
+
+/* Section Card Manajemen */
+
+.container-manajemen {
+	padding: 0rem 5rem 10rem;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5rem;
+	width: 100%;
+}
+
+.container-manajemen .label-m {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	align-self: stretch;
+}
+
+.petinggi {
+	display: flex;
+	justify-content: space-between;
+	gap: 4rem;
+}
+
+.rectangle {
+	width: 100%;
+	border-radius: 1.5rem;
+	position: relative;
+	justify-content: left;
+	border: 1px solid var(--primary-600, #041a56);
+	background: var(--primary-400, #2f55a2);
+}
+
+.name-p {
+	padding: 1rem;
+	position: absolute;
+	width: 100%;
+}
+
+/* End Section card manajemen */
+
+/* Section Visi dan Misi */
+
+.container-visi-misi {
+	padding: 0rem 5rem 10rem 5rem;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	gap: 5rem;
+}
+
+.visi {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	flex: 1 0 0;
+	text-align: center;
+}
+
+.vertikal-center {
+	border: 1px solid black;
+	width: 1px;
+	height: 242px;
+	align-items: center;
+}
+
+.kata-kata {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.misi {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	flex: 1 0 0;
+	text-align: center;
+}
+
+/* End Section Visi dan Misi */
+
+/* Section Galeri */
+
+.container-img-b {
+	padding: 0rem 5rem 10rem;
+	display: grid;
+	gap: 5rem;
+}
+
+.container-img-b .label-i {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	align-self: stretch;
+}
+
+.container-galer {
+	display: flex;
+}
+
+/* End Of Section Galeri */
+
+/* Section Banner */
+.banner-career {
+	padding: 0rem 5rem 10rem;
+}
+
+.banner-career .banner {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	position: relative;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.text-banner img {
+	width: auto;
+	height: auto;
+}
+
+.wrap-img-career {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+}
+
+.text-banner .wrap-img-career .img-career {
+	width: 100%;
+	height: fit-content;
+	object-fit: cover;
+}
+
+.text-banner {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	gap: 2rem;
+	flex: 1 0 0;
+	position: absolute;
+	height: 100%;
+}
+
+.text-come {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 1rem;
+	align-self: stretch;
+	padding-left: 3.5rem;
+}
+
+.img-end {
+	position: absolute;
+	align-content: space-between;
+}
+
+/* Responsive tablet */
+@media screen and (max-width: 1100px) {
+	/* Container About */
+	.container-about {
+		padding-top: 6.5rem;
+	}
+	/* Container About End */
+
+	/* Section History */
+	.container-history {
+		padding: 3.75rem;
+	}
+
+	.scroll-year .history {
+		height: 290px;
+	}
+
+	.label-tentangkami p {
+		font-size: 1.5rem;
+	}
+
+	.label-b img {
+		height: 2.8rem;
+	}
+
+	.label-b h3 {
+		font-size: 2rem;
+	}
+
+	.label-b p {
+		font-size: 0.875rem;
+	}
+
+	.scroll-year ::-webkit-scrollbar {
+		width: 8px;
+		height: 180px;
+	}
+
+	.b-history {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 1.5rem;
+	}
+
+	.b-history p {
+		font-size: 14px;
+	}
+
+	.scroll-year .history {
+		padding-left: 1rem;
+	}
+
+	.history .history1 h3 {
+		font-size: 1.5rem;
+	}
+
+	.history .history1 p {
+		font-size: 0.875rem;
+	}
+
+	.label-m img {
+		height: 2.8rem;
+	}
+
+	.label-m h3 {
+		font-size: 2rem;
+	}
+
+	.label-m p {
+		font-size: 0.875rem;
+	}
+
+	/* End Section history */
+
+	/* Section Manajemen */
+
+	.container-manajemen {
+		padding: 0rem 3.75rem 3.75rem;
+		gap: 2.5rem;
+	}
+
+	.petinggi {
+		gap: 2rem;
+	}
+
+	.name-p h3 {
+		font-size: 0.82rem;
+	}
+
+	.name-p p {
+		font-size: 0.75rem;
+	}
+
+	/* End section Manajemen */
+
+	/* Section Visi-Misi */
+
+	.container-visi-misi {
+		padding: 0rem 3.75rem 3.75rem;
+		width: 100%;
+		gap: 1rem;
+	}
+
+	.visi h2 {
+		font-size: 1rem;
+	}
+
+	.visi h1 {
+		font-size: 1.25rem;
+	}
+
+	.visi p {
+		font-size: 0.75rem;
+	}
+
+	.misi h2 {
+		font-size: 1rem;
+	}
+
+	.misi h1 {
+		font-size: 1.25rem;
+	}
+
+	.kata-kata {
+		gap: 1rem;
+	}
+
+	.misi p {
+		font-size: 0.75rem;
+	}
+
+	/* End Of Section Visi-Misi */
+
+	/* Section Galeri */
+
+	.container-img-b {
+		padding: 0rem 3.75rem 3.75rem;
+		gap: 2.5rem;
+	}
+
+	.label-i img {
+		height: 2.8rem;
+	}
+
+	.label-i h3 {
+		font-size: 2rem;
+	}
+
+	.label-i p {
+		font-size: 0.875rem;
+	}
+
+	/* End Of Section Galeri */
+
+	/* Section Join Us */
+	.banner-career {
+		padding: 0rem 3.75rem 3.75rem;
+	}
+
+	.banner-career .banner {
+		justify-content: center;
+	}
+
+	.text-banner .img-career {
+		width: 100%;
+		height: fit-content;
+		object-fit: cover;
+	}
+
+	.banner .bg-tentang-kami {
+		height: 368px;
+	}
+
+	.banner img {
+		width: 100%;
+		height: 259px;
+	}
+
+	.text-come h1 {
+		font-size: 1.5rem;
+	}
+
+	.text-come p {
+		font-size: 0.75rem;
+	}
+
+	.text-banner {
+		gap: 1rem;
+	}
+
+	.text-come a {
+		font-size: 12px;
+		width: 100%;
+	}
+
+	.text-come button {
+		padding: 12px 24px;
+		width: 100%;
+	}
+	/* End Of Section Join Us */
+}
+/* End Of Responsive Tablet */
+
+/* Responsive Hp */
+
+/* @media screen (max-width: 768px) {
+.banner-career {
+  flex-direction: column;
+} */
+
+@media screen and (max-width: 600px) {
+	/* Container About */
+	.container-about {
+		padding-top: 5.25rem;
+	}
+	/* Container About End */
+
+	/* Section History */
+	.container-history {
+		padding: 1.25rem 1.25rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.container-history .row {
+		gap: 32px;
+	}
+
+	.label-tentangkami p {
+		font-size: 0.875rem;
+	}
+
+	.label-b {
+		gap: 0.5rem;
+		padding-bottom: 0rem;
+	}
+
+	.label-b img {
+		height: 28px;
+		width: 4px;
+	}
+
+	.label-b h3 {
+		font-size: 24px;
+		font-weight: 700;
+		letter-spacing: 1.2px;
+	}
+
+	.label-b p {
+		font-size: 0.875rem;
+	}
+
+	.scroll-year ::-webkit-scrollbar {
+		width: 0px;
+	}
+
+	.scroll-year .history {
+		gap: 1rem;
+	}
+
+	.b-history {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.b-history p {
+		font-size: 0.875rem;
+	}
+
+	.scroll-year .history {
+		padding-left: 1rem;
+		width: 100%;
+		height: 276px;
+	}
+
+	.history .history1 h3 {
+		font-size: 1.25rem;
+	}
+
+	.history .history1 p {
+		font-size: 0.875rem;
+	}
+
+	/* End Section History */
+
+	/* Section Manajemen */
+
+	.container-manajemen {
+		padding: 1.25rem 1.25rem;
+		gap: 2rem;
+	}
+
+	.label-m {
+		gap: 0.5rem;
+		padding-bottom: 0rem;
+	}
+
+	.label-m img {
+		height: 28px;
+		width: 4px;
+	}
+
+	.label-m h3 {
+		font-size: 24px;
+		font-weight: 700;
+		letter-spacing: 1.2px;
+	}
+
+	.label-m p {
+		font-size: 0.875rem;
+	}
+
+	.petinggi {
+		gap: 2rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.rectangle {
+		width: 100%;
+		height: auto;
+	}
+
+	.rectangle img {
+		width: 100%;
+		height: auto;
+	}
+
+	.name-p h3 {
+		font-size: 1.25rem;
+	}
+
+	.name-p p {
+		font-size: 1rem;
+	}
+
+	/* End Of Section Manajemen */
+
+	/* Section Visi-Misi */
+
+	.container-visi-misi {
+		padding: 1.25rem 1.25rem;
+		display: flex;
+		flex-direction: column;
+		/* gap: 2rem; */
+		width: auto;
+	}
+
+	.vertikal-center {
+		border: 0px solid black;
+		width: 0px;
+		height: 0px;
+		align-items: center;
+	}
+
+	.visi h2 {
+		font-size: 14px;
+	}
+
+	.visi h1 {
+		font-size: 16px;
+	}
+
+	.visi p {
+		font-size: 0.75rem;
+	}
+
+	.misi h2 {
+		font-size: 14px;
+	}
+
+	.misi h1 {
+		font-size: 16px;
+	}
+
+	.misi p {
+		font-size: 0.75rem;
+	}
+
+	.kata-kata {
+		gap: 0.5rem;
+	}
+
+	/* End Of Section Visi-Misi */
+
+	/* Section Galeri */
+
+	.container-img-b {
+		padding: 1.25rem 1.25rem;
+		gap: 2rem;
+	}
+
+	.label-i {
+		gap: 0.5rem;
+		padding-bottom: 0rem;
+	}
+
+	.label-i img {
+		height: 28px;
+		width: 4px;
+	}
+
+	.label-i h3 {
+		font-size: 24px;
+		font-weight: 700;
+		letter-spacing: 1.2px;
+	}
+
+	.label-i p {
+		font-size: 0.875rem;
+	}
+
+	/* End Of Section galeri */
+
+	/* Section Join Us */
+
+	.banner-career {
+		padding: 0rem 1.25rem 1.25rem 1.25rem;
+	}
+
+	.banner {
+		flex-direction: column;
+		padding: 0rem 1.25rem 1.25rem 1.25rem;
+	}
+
+	.text-banner .wrap-img-career .img-career {
+		width: 50%;
+		margin: 0 auto 10px auto;
+	}
+
+	.banner img {
+		width: 100%;
+		height: 438px;
+	}
+
+	.text-come h1 {
+		font-size: 1.5rem;
+	}
+
+	.text-come p {
+		font-size: 0.75rem;
+	}
+
+	.text-banner {
+		gap: 0rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.text-banner img {
+		width: 288px;
+		height: 215px;
+	}
+
+	.text-come {
+		/* gap: 1rem;
+    padding-top: 2rem;
+    padding-left: 0rem; */
+		padding-left: 5rem;
+		padding-right: 5rem;
+		padding-top: 1rem;
+		align-items: center;
+		text-align: center;
+		width: auto;
+	}
+
+	.text-come a {
+		padding-top: 0.5rem;
+		width: 100%;
+	}
+
+	.text-banner a button {
+		width: 100%;
+		text-align: center;
+		font-size: 12px;
+	}
+}
+
+/* End of Section Join Us */

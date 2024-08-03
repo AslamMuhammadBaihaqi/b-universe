@@ -1,0 +1,210 @@
+/* Form Kontak */
+.container-kontak {
+	padding: 9rem 5rem 5rem;
+}
+
+.label {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	align-self: stretch;
+}
+
+.label {
+	padding-bottom: 2.5rem;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1rem;
+	align-self: stretch;
+	padding-bottom: 2rem;
+}
+
+.form input {
+	width: 80%;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%; /* 22.4px */
+	letter-spacing: 0.8px;
+}
+
+.form textarea {
+	width: 80%;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%; /* 22.4px */
+	letter-spacing: 0.8px;
+}
+
+.kontak-img {
+	/* width: 676px;
+	height: 907px; */
+	flex-shrink: 0;
+}
+/* Form Kontak End */
+
+/* Kantor Pusat */
+.container-kantor {
+	padding: 5rem 5rem 11.25rem 5rem;
+}
+
+.kantor-icon {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+	align-self: stretch;
+}
+
+.lokasi-kantor {
+	width: 90%;
+}
+
+.lokasi-kantor p:nth-child(1) {
+	padding-bottom: 2.5rem;
+}
+
+.kontak-maps iframe {
+	border-radius: 1.5rem;
+	-webkit-border-radius: 1.5rem;
+	-moz-border-radius: 1.5rem;
+	-ms-border-radius: 1.5rem;
+	-o-border-radius: 1.5rem;
+	width: 35rem;
+}
+/* Kantor Pusat End */
+
+/* Media Screen 992px */
+@media screen and (max-width: 992px) {
+	/* Form Kontak */
+	.container-kontak {
+		padding: 6.5rem 3.75rem 2.5rem 3.75rem;
+	}
+
+	.label img {
+		height: 2.8rem;
+	}
+
+	.label h3 {
+		font-size: 32px;
+		font-weight: 700;
+		letter-spacing: 1.6px;
+	}
+
+	.form input {
+		width: 100%;
+	}
+
+	.form textarea {
+		width: 100%;
+	}
+
+	.form-kontak button {
+		width: 100%;
+		text-align: center;
+		margin-top: 1.75rem;
+	}
+
+	.kontak-img {
+		padding-top: 3.75rem;
+		align-items: center;
+	}
+	/* Form Kontak End */
+
+	/* Kantor Pusat */
+	.container-kantor {
+		padding: 2.5rem 3.75rem 5rem 3.75rem;
+	}
+
+	.lokasi-kantor {
+		width: 100%;
+	}
+
+	.kontak-maps {
+		align-self: stretch;
+	}
+
+	.kontak-maps iframe {
+		width: 100%;
+		margin-top: 3rem;
+	}
+	/* Kantor Pusat End */
+}
+
+/* Media Screen 992px End */
+
+/* Media Screen 450px */
+@media screen and (max-width: 450px) {
+	/* Form Kontak */
+	.container-kontak {
+		padding: 5rem 1.25rem 1.25rem;
+	}
+
+	.label {
+		gap: 0.5rem;
+		padding-bottom: 1.5rem;
+	}
+
+	.label h3 {
+		font-size: 24px;
+		font-weight: 700;
+		letter-spacing: 1.2px;
+	}
+
+	.label img {
+		height: 28px;
+		width: 4px;
+	}
+
+	.form:nth-child(4) {
+		padding-bottom: 0;
+	}
+
+	.form-kontak button {
+		width: 100%;
+		text-align: center;
+		margin-top: 1.5rem;
+	}
+
+	.kontak-img {
+		padding-top: 1.5rem;
+		align-items: center;
+	}
+	/* Form Kontak End */
+
+	/* Kantor Pusat */
+	.container-kantor {
+		padding: 1.25rem 1.25rem 2.5rem 1.25rem;
+	}
+
+	.lokasi-kantor p:nth-child(1) {
+		padding-bottom: 1.5rem;
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 0.8px;
+	}
+
+	.kantor-icon {
+		gap: 0.5rem;
+	}
+
+	.kantor-icon svg {
+		width: 38px;
+		height: 38px;
+	}
+
+	.kantor-icon p {
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 0.8px;
+	}
+	/* Kantor Pusat End */
+}
+
+/* Media Screen 450px End */

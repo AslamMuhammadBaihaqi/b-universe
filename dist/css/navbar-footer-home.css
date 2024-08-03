@@ -1,0 +1,282 @@
+/* Navbar */
+.header-home {
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding: 2rem 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+	position: fixed;
+	transition: all 0.1s linear !important;
+}
+
+.header-home .nav a {
+	color: white;
+}
+
+.header-home .hamburger-black {
+	display: none;
+}
+
+.sticky-home {
+	background: white;
+	padding: 1rem 6rem;
+	transition: all 0.1s linear !important;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sticky-home .hamburger-white {
+	display: none;
+}
+
+.sticky-home .hamburger-black {
+	display: block;
+}
+
+.sticky-home .nav a {
+	color: black;
+}
+
+.header-logo {
+	display: none;
+}
+
+.sticky-home .header-logo-home {
+	display: none;
+}
+
+.sticky-home .header-logo {
+	display: block;
+}
+
+#check {
+	position: absolute;
+	right: 4rem;
+	display: none;
+}
+
+.openMenu {
+	cursor: pointer;
+	display: none;
+}
+
+.hamburger-navbar {
+	display: none;
+}
+
+.nav a {
+	margin-left: 3rem;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #fb0003;
+}
+
+.active-nav {
+	color: #fb0003;
+	font-weight: 600;
+}
+/* Navbar End */
+
+/* Media screen 1200px */
+@media screen and (max-width: 1200px) {
+	.nav a {
+		margin-left: 2rem;
+	}
+}
+/* Media screen 1200px End */
+
+/* Media screen 924px */
+@media screen and (max-width: 942px) {
+	.header-logo-home svg {
+		width: 9.9375rem;
+		height: 2.5rem;
+	}
+
+	.openMenu {
+		display: block;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.hamburger-navbar {
+		display: block;
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 80%;
+		height: 100%;
+		background-color: #010d3a;
+		padding: 2rem 3.75rem;
+		transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		-moz-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-o-transform: translateX(100%);
+		transition: all 0.7s ease-in-out;
+		-webkit-transition: all 0.7s ease-in-out;
+		-moz-transition: all 0.7s ease-in-out;
+		-ms-transition: all 0.7s ease-in-out;
+		-o-transition: all 0.7s ease-in-out;
+		z-index: 100;
+	}
+
+	#check:checked ~ .hamburger-navbar {
+		transform: translateX(0);
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+	}
+
+	.navbar-tablet {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		padding-top: 2.5rem;
+	}
+
+	.navbar-icon {
+		margin-bottom: 2.5rem;
+	}
+
+	.navbar-tablet a {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 140%;
+		letter-spacing: 1.2px;
+		text-decoration: none;
+	}
+
+	.navbar-icon {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		gap: 1rem;
+		align-self: stretch;
+	}
+}
+/* Media screen 924px End*/
+
+/* Media screen 890px */
+@media screen and (max-width: 890px) {
+	.header-home {
+		padding: 2rem 3.75rem;
+	}
+
+	.sticky-home {
+		padding: 1rem 4.25rem;
+	}
+
+	.footer {
+		display: flex;
+		padding: 4rem 3.75rem;
+		gap: 5rem;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.logo {
+		width: 10rem;
+		height: 2.5rem;
+	}
+
+	.content-right {
+		display: flex;
+		align-items: flex-start;
+		gap: 10rem;
+		align-self: stretch;
+	}
+}
+/* Media screen 890px */
+
+/* Media screen 450px */
+@media screen and (max-width: 450px) {
+	.header-logo-home svg {
+		width: 7.5rem;
+		height: 1.875rem;
+	}
+
+	.sticky-home {
+		padding: 1rem 1.75rem;
+	}
+
+	.header-home {
+		padding: 1.25rem 1.25rem;
+	}
+	.footer {
+		padding: 2.5rem 1.25rem;
+		gap: 2.5rem;
+	}
+
+	.logo {
+		width: 7.5rem;
+		height: 1.875rem;
+	}
+
+	.hamburger {
+		width: 1.25rem;
+		height: 1rem;
+	}
+
+	.hamburger-navbar {
+		padding: 1.25rem;
+	}
+
+	.content-left {
+		gap: 1rem;
+	}
+
+	.wrapper-content {
+		gap: 1rem;
+	}
+
+	.navbar-tablet {
+		padding-top: 2rem;
+	}
+
+	.navbar-icon {
+		margin-bottom: 1.5rem;
+	}
+
+	.navbar-tablet a {
+		font-size: 14px;
+	}
+
+	.navbar-icon svg {
+		width: 20px;
+		height: 20px;
+	}
+
+	.icon-footer {
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+
+	.wrapper-list {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 2.5rem;
+		align-self: stretch;
+	}
+
+	.wrapper-list .menu {
+		gap: 0.5rem;
+	}
+
+	.wrapper-list .menu .list {
+		gap: 1rem;
+	}
+}
+/* Media screen 450px End*/
